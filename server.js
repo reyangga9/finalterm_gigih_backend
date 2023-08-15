@@ -5,7 +5,7 @@ const commentRoute = require("./routes/comment.route");
 const productRoute = require("./routes/product.route");
 const connectDb = require("./config/db");
 const cors = require("cors");
-const port = 3080;
+const port = process.env.PORT ||3080;
 
 app.use(cors());
 app.use(express.json());
