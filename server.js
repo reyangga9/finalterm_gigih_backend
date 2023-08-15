@@ -10,9 +10,9 @@ const port = 3080;
 app.use(cors());
 app.use(express.json());
 
-app.get("/",(req,res) => {
-res.send("hello world"}
-)
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 
 
 // routes
