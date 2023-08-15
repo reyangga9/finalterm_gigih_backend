@@ -212,6 +212,6 @@ npm run start
 
 This command will execute the script defined in the `start` field of the "scripts" section in your `package.json` file. Usually, this script starts your application using nodemon, which helps to automatically restart the server whenever changes are detected, making the development process more convenient.
 
-5. Once the server is running, you should be able to access your application locally by navigating to the appropriate address in your web browser (http://localhost:3000)
+5. Once the server is running, you should be able to access your application locally by navigating to the appropriate address in your web browser (http://localhost:3080)
 
 ```
