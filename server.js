@@ -10,6 +10,11 @@ const port = 3080;
 app.use(cors());
 app.use(express.json());
 
+app.get("/",(req,res) => {
+res.send("hello world"}
+)
+
+
 // routes
 app.use("/api/videos", videosRoute);
 app.use("/api/comments", commentRoute);
