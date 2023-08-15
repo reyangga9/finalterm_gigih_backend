@@ -1,10 +1,7 @@
 {
-  "name": "vanilla",
-  "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "nodemon server",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "cors": "^2.8.5",
