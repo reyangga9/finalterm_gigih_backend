@@ -5,7 +5,6 @@
   "main": "index.html",
   "scripts": {
     "start": "nodemon server",
-    "build": "parcel build index.html"
   },
   "dependencies": {
     "cors": "^2.8.5",
