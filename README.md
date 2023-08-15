@@ -1,8 +1,4 @@
-# midterm-GIGIH
-
-Created with CodeSandbox
-
-# gigih_midterm
+# GIGIH Finalterm
 
 ## Table of Content
 
